@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: capitalize;
+}
+section {
+    margin-top: 130px;
+}
+.button-submit {
+    color: #005FAC;
+    padding: 20px 25px;
+    border: none;
+}
+main {
+    max-width:1000px;
+    margin: 0 auto;
+}
+/* header style */
+.header-area {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+.header-content {
+    text-align: right;
+    margin-left: 50%;
+    padding: 250px 100px;
+}
+.header-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 24px;
+}
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+/* previous-year */
+.section-content{
+    display: flex;
+    gap: 88px;
+    
+}
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+}
+.des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+.right {
+    margin-top: 200px;
+}
+/* my plans */
+.plans-title {
+    text-align: center;
+}
+.plans-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.items-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 20px;
+}
+.items-description {
+    color: #737272;
+}
+/* contact-area */
+.contact-area {
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/watch.png'); */
+}
+.contact-content {
+    padding: 60px;
+}
+.contact-title {
+    color: #FFFFFF;
+}
+/* footer area */
+.footer-area {
+    background: #151414;
+    color: #FFFFFF;
+    margin-top: 130px;
+}
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 130px 230px;
+    display: flex;
+    gap: 330px;
+}
+.footer-area a {
+    text-decoration: none;
+    padding: 30px 16px;
+}
+.footer-area input[type=email]{
+    width: 100%;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: none;
+}
+.footer-right .button-submit{
+    color: #ffffff;
+    border: none;
+    background: #005FAC;
+    border-radius: 8px;
+}
+.footer-area p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    
+}
