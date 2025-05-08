@@ -70,8 +70,7 @@
     }
 
     const getMostHeightProduct = (products: Product[]): Product | null => {
-        if (products.length === 0) return null;
-
+        
         let maxProduct = products[0];
 
         for (const product of products) {
